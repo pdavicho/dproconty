@@ -2,7 +2,7 @@ import streamlit as st
 from appMops import mainMops
 from appIps import mainJunos
 
-st.sidebar.image('proconty.png')
+#st.sidebar.image('proconty.png')
 #st.sidebar.title("Pasos a Producción")
 menuPrincipal = st.sidebar.radio('Menu Principal', ['Información','1. Junos', '2. Mops'])
 
@@ -33,5 +33,5 @@ elif menuPrincipal == '2. Mops':
     st.title('[MOPs Gestión - Preaprobadas]')
     mainMops()
 
-st.sidebar.write('All rights reserved. Developed by **:blue[David Minango]**')
+#st.sidebar.write('All rights reserved. Developed by **:blue[David Minango]**')
         
