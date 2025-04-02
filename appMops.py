@@ -22,7 +22,7 @@ def mopMantenimientos():
     impacto = st.text_input('Impacto / Alcance', value='Ninguno')
     sheet['C13'] = impacto
 
-    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Patricio Jordán', 'Mauro Caluña', 'Xavier Ortiz'])
+    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Viviana Montalvo', 'Mauro Caluña', 'Xavier Ortiz'])
     sheet['E18'] = n2Responsable
     if n2Responsable == 'Carlos Castillo':
         sheet['H18'] = 'carlos.castillocuenca@telefonica.com'
@@ -42,9 +42,9 @@ def mopMantenimientos():
     elif n2Responsable ==  'Washington Chuqui':
         sheet['H18'] = 'washington.chuqui@telefonica.com'
         sheet['G18'] = '0995652744'
-    elif n2Responsable ==  'Patricio Jordán':
-        sheet['H18'] = 'patricio.jordanalvarez@telefonica.com'
-        sheet['G18'] = '0989613952'
+    elif n2Responsable ==  'Viviana Montalvo':
+        sheet['H18'] = 'viviana.montalvoduran@telefonica.com'
+        sheet['G18'] = '0983918652'
     elif n2Responsable ==  'Mauro Caluña':
         sheet['H18'] = 'mauro.calunatisalema@telefonica.com'
         sheet['G18'] = '0985796002'
@@ -391,7 +391,7 @@ def mopProveedor():
     impacto = st.text_input('Impacto / Alcance', value='Ninguno')
     sheet['C13'] = impacto
 
-    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Patricio Jordán', 'Mauro Caluña', 'Xavier Ortiz'])
+    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Viviana Montalvo', 'Mauro Caluña', 'Xavier Ortiz'])
     sheet['E18'] = n2Responsable
     if n2Responsable == 'Carlos Castillo':
         sheet['H18'] = 'carlos.castillocuenca@telefonica.com'
@@ -411,9 +411,9 @@ def mopProveedor():
     elif n2Responsable ==  'Washington Chuqui':
         sheet['H18'] = 'washington.chuqui@telefonica.com'
         sheet['G18'] = '0995652744'
-    elif n2Responsable ==  'Patricio Jordán':
-        sheet['H18'] = 'patricio.jordanalvarez@telefonica.com'
-        sheet['G18'] = '0989613952'
+    elif n2Responsable ==  'Viviana Montalvo':
+        sheet['H18'] = 'viviana.montalvoduran@telefonica.com'
+        sheet['G18'] = '0983918652'
     elif n2Responsable ==  'Mauro Caluña':
         sheet['H18'] = 'mauro.calunatisalema@telefonica.com'
         sheet['G18'] = '0985796002'
