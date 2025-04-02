@@ -44,7 +44,7 @@ def mopMantenimientos():
         sheet['G18'] = '0995652744'
     elif n2Responsable ==  'Viviana Montalvo':
         sheet['H18'] = 'viviana.montalvoduran@telefonica.com'
-        sheet['G18'] = '0983918652'
+        sheet['G18'] = '0983918652'
     elif n2Responsable ==  'Mauro Caluña':
         sheet['H18'] = 'mauro.calunatisalema@telefonica.com'
         sheet['G18'] = '0985796002'
@@ -413,7 +413,7 @@ def mopProveedor():
         sheet['G18'] = '0995652744'
     elif n2Responsable ==  'Viviana Montalvo':
         sheet['H18'] = 'viviana.montalvoduran@telefonica.com'
-        sheet['G18'] = '0983918652'
+        sheet['G18'] = '0983918652'
     elif n2Responsable ==  'Mauro Caluña':
         sheet['H18'] = 'mauro.calunatisalema@telefonica.com'
         sheet['G18'] = '0985796002'
