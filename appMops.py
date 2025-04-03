@@ -22,7 +22,7 @@ def mopMantenimientos():
     impacto = st.text_input('Impacto / Alcance', value='Ninguno')
     sheet['C13'] = impacto
 
-    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Viviana Montalvo', 'Mauro Caluña', 'Xavier Ortiz'])
+    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Viviana Montalvo', 'Mauro Caluña', 'Marllory Cobos', 'Xavier Ortiz'])
     sheet['E18'] = n2Responsable
     if n2Responsable == 'Carlos Castillo':
         sheet['H18'] = 'carlos.castillocuenca@telefonica.com'
@@ -51,6 +51,9 @@ def mopMantenimientos():
     elif n2Responsable ==  'Xavier Ortiz':
         sheet['H18'] = 'xavier.ortiz@telefonica.com'
         sheet['G18'] = '0998542986'
+    elif n2Responsable ==  'Marllory Cobos':
+        sheet['H18'] = 'marllory.cobosmaldonado@telefonica.com'
+        sheet['G18'] = '0987928739'
 
     menu = ['MOP DIA', 'MOP NOCHE']
     choice = st.selectbox('Menu', menu)
@@ -391,7 +394,7 @@ def mopProveedor():
     impacto = st.text_input('Impacto / Alcance', value='Ninguno')
     sheet['C13'] = impacto
 
-    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Viviana Montalvo', 'Mauro Caluña', 'Xavier Ortiz'])
+    n2Responsable = st.selectbox('N2', ['Carlos Castillo','Cristhian Vallejo', 'Elizabeth Peñaloza', 'Fabricio Oleas','Luis Chumo', 'Washington Chuqui', 'Viviana Montalvo', 'Mauro Caluña', 'Marllory Cobos', 'Xavier Ortiz'])
     sheet['E18'] = n2Responsable
     if n2Responsable == 'Carlos Castillo':
         sheet['H18'] = 'carlos.castillocuenca@telefonica.com'
@@ -420,6 +423,9 @@ def mopProveedor():
     elif n2Responsable ==  'Xavier Ortiz':
         sheet['H18'] = 'xavier.ortiz@telefonica.com'
         sheet['G18'] = '0998542986'
+    elif n2Responsable ==  'Marllory Cobos':
+        sheet['H18'] = 'marllory.cobosmaldonado@telefonica.com'
+        sheet['G18'] = '0987928739'
 
     proveedor = st.text_input('Proveedor')
     sheet['E19'] = proveedor
